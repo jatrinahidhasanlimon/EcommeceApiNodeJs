@@ -1,51 +1,73 @@
-const User = require('../models/User.js')
-const getUsers = ((req, res) => {
-    res.json('It all user route')
-})
-
-const getUser = ((req, res) => {
-    const id = Number(req.params.userID)
-    res.json('single Product id: ' + id)
-})
-
-const createUser =  ( async (req, res) => {
-    const newUser = {
-        name: req.body.name,
-        email: req.body.email,
-        phone: req.body.phone,
-        gender: req.body.gender,
-        address: req.body.address
+const User = require('../models/User.js');
+const mongoose = require('mongoose')
+const getUsers = (async (req, res) => {
+    try {
+        const allUser = await User.find();
+        return res.status(200).json(allUser)
+    } catch (error) {
+       return res.status(400).json(error.message)
     }
-    
+})
+const getUser = (async (req, res) => {
+    const userID = (req.params.id)
+    if (!mongoose.Types.ObjectId.isValid(userID)) {
+        return res.status(404).json({ msg: `user not found with id :${userID}`  });
+    }
+    try {
+        let user = await User.findById(userID);
+        if (user === null) {
+           return res.status(404).json({ msg: `user not found with id :${userID}`  });
+        } 
+        res.status(200).json(user)
+    } catch (error) {
+       return res.status(500).json(error.message) 
+    }
+})
+const  createUser = async (req, res) => {
+    const newUser = {...req.body}
     try {
         let create = await User.create(newUser)
-        if(create ){
-            console.log(create)
-            res.send('User Created successfully: '+create)
+        res.status(200).json(create)
+    }catch(error){
+        res.status(400).json(error.message)
+    }
+}
+const updateUser = ( async (req, res) => {
+    const userID = (req.params.id)
+    const filter = { _id: userID };
+    if (!mongoose.Types.ObjectId.isValid(userID)) {
+        return res.status(404).json({ msg: `user not found with id :${userID}`  });
+    }
+    const info = {...req.body}
+    try {
+        let doc = await User.findOneAndUpdate(filter, info, {
+            new: true
+          });
+          return res.status(200).json(doc) 
+          
+    } catch (error) {
+       return res.status(500).json('From catch: '+error.message) 
+    }
+})
+
+const deleteUser = (async (req, res) => {
+    const userID = (req.params.id)
+    if (!mongoose.Types.ObjectId.isValid(userID)) {
+        return res.status(404).json({ msg: `user not found with id :${userID}`  });
+    }
+    try {
+        const deleteUser = await User.findByIdAndRemove(userID);
+        if(deleteUser == null){
+            return res.status(404).json('Failed to find user by id: '+userID)
         }
-    }catch(ex){
-        res.send('Failed to create')
+        res.status(200).json('user deleted'+deleteUser)
+        
+        
+    } catch (error) {
+        console.log(error)
+        res.status(400).json('Failed to delete. '+error.message)
     }
-})
-
-const updateUser = ((req, res) => {
-    const id = Number(req.params.productID)
-    const index = products.findIndex(User => product.id === id)
-    const updatedUser = {
-        id: products[index].id,
-        name: req.body.name,
-        price: req.body.price
-    }
-
-    products[index] = updatedProduct
-    res.status(200).json('Product updated')
-})
-
-const deleteUser = ((req, res) => {
-    const id = Number(req.params.productID)
-    const index = products.findIndex(User => product.id === id)
-    products.splice(index,1)
-    res.status(200).json('Product deleted')
+   
 })
 
 module.exports = {
