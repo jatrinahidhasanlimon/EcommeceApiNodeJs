@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const fs = require('fs');
 const user_routes = require('./routes/user.js')
+const product_routes = require('./routes/product.js')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser');
 require('dotenv').config()
@@ -35,10 +36,11 @@ app.use(logger)
 // app.get('/', (req,res) => {
 //     res.send('welcome to the node js rest api')
 // })
-const router = express.Router()
+// const router = express.Router()
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 app.use(express.json())
 
 app.use('/api/user', user_routes)
+app.use('/api/product', product_routes)
