@@ -1,11 +1,12 @@
 const User = require('../models/User.js');
+const {validationErrorHumanify} = require('../models/ErrorHandler.js');
 const mongoose = require('mongoose')
 const getUsers = (async (req, res) => {
     try {
         const allUser = await User.find();
         return res.status(200).json(allUser)
     } catch (error) {
-       return res.status(400).json(error.message)
+        return res.status(400).json(validationErrorHumanify(error))
     }
 })
 const getUser = (async (req, res) => {
@@ -20,7 +21,7 @@ const getUser = (async (req, res) => {
         } 
         res.status(200).json(user)
     } catch (error) {
-       return res.status(500).json(error.message) 
+        return res.status(400).json(validationErrorHumanify(error))
     }
 })
 const  createUser = async (req, res) => {
@@ -29,7 +30,8 @@ const  createUser = async (req, res) => {
         let create = await User.create(newUser)
         res.status(200).json(create)
     }catch(error){
-        res.status(400).json(error.message)
+        return res.status(400).json(validationErrorHumanify(error))
+        
     }
 }
 const updateUser = ( async (req, res) => {
@@ -40,13 +42,17 @@ const updateUser = ( async (req, res) => {
     }
     const info = {...req.body}
     try {
-        let doc = await User.findOneAndUpdate(filter, info, {
+        let user = await User.findOneAndUpdate(filter, info, {
             new: true
           });
-          return res.status(200).json(doc) 
+          if (user === null) {
+            return res.status(404).json({ msg: `user not found with id :${userID}`  });
+         }
+           res.status(200).json(user) 
           
     } catch (error) {
-       return res.status(500).json('From catch: '+error.message) 
+       
+        return res.status(400).json(validationErrorHumanify(error))
     }
 })
 
@@ -64,12 +70,10 @@ const deleteUser = (async (req, res) => {
         
         
     } catch (error) {
-        console.log(error)
-        res.status(400).json('Failed to delete. '+error.message)
+        return res.status(400).json(validationErrorHumanify(error))
     }
    
 })
-
 module.exports = {
     getUsers,
     getUser,

@@ -1,5 +1,12 @@
 const mongoose = require('mongoose')
 
+
+const validateEmail = email => {
+  const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  return re.test(email);
+};
+
+
 const UserSchema = new mongoose.Schema({
     // _id: mongoose.SchemaTypes.ObjectId,
     _id: {
@@ -14,7 +21,8 @@ const UserSchema = new mongoose.Schema({
     email:{
         type: String,
         required: true,
-        unique: true
+        unique: [true,'Must be at least 11, got {VALUE}'],
+        validate: [validateEmail, 'Please provide a valid email address'],
     },
     phone: {
         type: String,
@@ -28,10 +36,24 @@ const UserSchema = new mongoose.Schema({
         required: true
       },
       address: {
-        type: String,
-        minLength: [4, 'Must be at least 4, got {VALUE}'],
-        maxLength: 52,
-        required: true
+          city : {
+            type: String,
+            minLength: [4, 'Must be at least 4, got {VALUE}'],
+            maxLength: 52,
+            required: true
+          },
+          area : {
+            type: String,
+            minLength: [4, 'Must be at least 4, got {VALUE}'],
+            maxLength: 52,
+            required: true
+          },
+          street : {
+            type: String,
+            minLength: [4, 'Must be at least 4, got {VALUE}'],
+            maxLength: 52,
+            required: true
+        }
       },
 })
 

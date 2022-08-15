@@ -10,25 +10,39 @@ const ProductSchema = new mongoose.Schema({
         required: true,
         maxLength:  [54, 'Maximum 54, got {VALUE}'],
     },
-    image:{
-        type: String,
-        unique: true
-    },
+   
     category_id: {
         type: String,
         required: true
+    },
+    image: {
+      type: String,
+      required: true
+  },
+    tags: [{
+        type: String
+    }],
+    sku: {
+      type: String,
+      required: true
+    },
+    options:{
+      size:{
+        h:{type: Number,  required: true },
+        l:{type: Number, required: true },
+        w:{type: Number,  required: true }
       },
-    gender: {
-        type: String,
-        enum: ['male', 'female'],
-        required: true
-      },
-      address: {
-        type: String,
-        minLength: [4, 'Must be at least 4, got {VALUE}'],
-        maxLength: 52,
-        required: true
-      },
+      colors: [{type: String, required: true  }]
+    },
+    price: {
+      type: Number,
+      required: true
+    },
+    quantity: {
+      type: Number,
+      required: true
+    },
+      
 })
 
 const Product = mongoose.model('Product', ProductSchema)
