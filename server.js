@@ -5,6 +5,10 @@ const user_routes = require('./routes/user.js')
 const product_routes = require('./routes/product.js')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser');
+var cors = require('cors')
+app.use(cors({
+    origin: '*'
+}));
 require('dotenv').config()
 
 const connectDB = mongoose.connect(process.env.MONGO_URI)
