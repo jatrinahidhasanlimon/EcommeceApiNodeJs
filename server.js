@@ -3,8 +3,10 @@ const app = express()
 const fs = require('fs');
 const user_routes = require('./routes/user.js')
 const product_routes = require('./routes/product.js')
+const general_routes = require('./routes/general.js')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser');
+const auth = require("./middleware/auth");
 var cors = require('cors')
 app.use(cors({
     origin: '*'
@@ -46,5 +48,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 app.use(express.json())
 
-app.use('/api/user', user_routes)
+app.use('/api/user', auth,  user_routes)
 app.use('/api/product', product_routes)
+app.use('/', general_routes)
+
+
+app.post("/welcome", auth, (req, res) => {
+    res.status(200).send("Welcome 🙌 ");
+  });
+

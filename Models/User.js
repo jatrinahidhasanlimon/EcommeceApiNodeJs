@@ -24,6 +24,10 @@ const UserSchema = new mongoose.Schema({
         unique: [true,'Must be at least 11, got {VALUE}'],
         validate: [validateEmail, 'Please provide a valid email address'],
     },
+    password:{
+      type: String,
+      required: true
+  },
     phone: {
         type: String,
         minLength: [11, 'Must be at least 11, got {VALUE}'],
