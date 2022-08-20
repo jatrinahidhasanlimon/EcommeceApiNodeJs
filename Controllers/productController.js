@@ -1,8 +1,24 @@
 const Product = require('../models/Product.js');
 const mongoose = require('mongoose')
+const {validationErrorHumanify} = require('../models/ErrorHandler.js');
+
 const getProducts = (async (req, res) => {
+    const match = {}
+    const sort  = {}
+    if(req.query.sortBy && req.query.OrderBy){
+        sort[req.query.sortBy]   = req.query.OrderBy === 'desc' ? -1 : 1
+    }
+    // return res.send(sort)
+    let sortedFd = 1
+
+    // return res.send(req.query)
     try {
-        const allproduct = await Product.find();
+        const allproduct = await Product.find().populate(
+            [
+                { path: 'club', select: 'name' },
+                { path: 'country', select: 'name' },
+               
+            ]).sort({ price: sortedFd }).exec();
         return res.status(200).json(allproduct)
     } catch (error) {
         return res.status(400).json(validationErrorHumanify(error))
