@@ -14,7 +14,10 @@ app.use(cors({
     origin: '*'
 }));
 require('dotenv').config()
-
+// new
+app.use(express.static('./public'));
+app.use('/uploads', express.static('uploads'));
+// new
 const connectDB = mongoose.connect(process.env.MONGO_URI)
     .then(
         (result) => { console.log('Mongo DB Connected'); app.listen(5000)})
@@ -50,7 +53,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json()); 
 app.use(express.json())
 
-app.use('/api/user', auth,  user_routes)
+// app.use('/api/user', auth,  user_routes)
+app.use('/api/user',  user_routes)
 app.use('/api/product', product_routes)
 app.use('/api/club', club_routes)
 app.use('/api/country', country_routes)
@@ -61,3 +65,4 @@ app.post("/welcome", auth, (req, res) => {
     res.status(200).send("Welcome 🙌 ");
   });
 
+  app.use('/api/blog', require('./routes/blog'));

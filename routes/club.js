@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const upload =  require('../middleware/upload.js'); 
 const  { 
     getClubs,
     getClub,
@@ -10,7 +11,9 @@ const  {
 
 router.get('/', getClubs)
 router.get('/:id', getClub)
-router.post('/', createClub) 
+router.post('/', upload, (req, res)=>{
+    res.status(200).json('Finally') 
+}) 
 router.put('/:id', updateClub) 
 router.delete('/:id', deleteClub)
 

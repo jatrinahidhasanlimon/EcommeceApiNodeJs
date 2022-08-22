@@ -39,6 +39,7 @@ const getProduct = (async (req, res) => {
         return res.status(400).json(validationErrorHumanify(error))
     }
 })
+
 const  createProduct = async (req, res) => {
     const newProduct = {...req.body}
     try {
