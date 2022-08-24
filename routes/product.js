@@ -1,4 +1,5 @@
 const express = require('express')
+const upload =  require('../middleware/upload.js'); 
 const router = express.Router()
 const  { 
     getProducts,
@@ -10,7 +11,7 @@ const  {
 
 router.get('/', getProducts)
 router.get('/:id', getProduct)
-router.post('/', createProduct) 
+router.post('/',  upload ,createProduct) 
 router.put('/:id', updateProduct) 
 router.delete('/:id', deleteProduct)
 

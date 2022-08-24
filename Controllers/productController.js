@@ -1,5 +1,6 @@
 const Product = require('../models/Product.js');
 const mongoose = require('mongoose')
+
 const {validationErrorHumanify} = require('../models/ErrorHandler.js');
 
 const getProducts = (async (req, res) => {
@@ -42,6 +43,7 @@ const getProduct = (async (req, res) => {
 
 const  createProduct = async (req, res) => {
     const newProduct = {...req.body}
+    // return res.send(newProduct)
     try {
         let create = await Product.create(newProduct)
         res.status(200).json(create)
