@@ -1,6 +1,7 @@
 const express = require('express')
 const upload =  require('../middleware/upload.js'); 
 const router = express.Router()
+const multer  = require('multer')
 const  { 
     getProducts,
     getProduct,
@@ -12,6 +13,25 @@ const  {
 router.get('/', getProducts)
 router.get('/:id', getProduct)
 router.post('/',  upload ,createProduct) 
+
+
+
+router.post("/upload_files", (req, res) => {
+    // You can save the image you have get.
+    upload(req, res, (err) => {
+     if (err) {
+      return res.json({ success: false, err });
+     }
+     return res.json({
+      success: true,
+      filePath: res.req.file.path,
+      fileName: res.req.file.filename,
+     });
+    });
+   });
+
+
+
 router.put('/:id', updateProduct) 
 router.delete('/:id', deleteProduct)
 

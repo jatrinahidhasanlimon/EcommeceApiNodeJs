@@ -46,9 +46,15 @@ router.post("/uploadfiles", (req, res) => {
     });
 });
 
-router.post("/createPost", (req, res) => {
-    let blog = new Blog({ content: req.body.content, writer: req.body.userID });
-
+router.post("/createPost", async (req, res) => {
+    let blog = new Blog({ content: req.body.blog.content, writer: req.body.blog.userID });
+    console.log('blog is',blog)
+    // try {
+    //     let create = await Blog.create(blog)
+    //     res.status(200).json(create)
+    // }catch(error){
+    //     return res.status(400).json(validationErrorHumanify(error))
+    // }
     blog.save((err, response) => {
         if (err) return res.json({ success: false, err });
         Blog.find({ _id: response._id })
