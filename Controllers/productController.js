@@ -2,28 +2,40 @@ const Product = require('../models/Product.js');
 const mongoose = require('mongoose')
 
 const {validationErrorHumanify} = require('../models/ErrorHandler.js');
+const {underscoreToArraySplit} = require('../models/customFunction.js');
 
 const getProducts = (async (req, res) => {
-    const match = {}
-    const sort  = {}
-    if(req.query.sortBy && req.query.OrderBy){
-        sort[req.query.sortBy]   = req.query.OrderBy === 'desc' ? -1 : 1
+    let query = {}
+    if(req.query.club)
+    {
+        let clubParams = underscoreToArraySplit(req.query.club)
+        console.log(clubParams)
+        if (clubParams && clubParams.length > 0) {
+            query.club = {$in : clubParams};
+        }
     }
-    // return res.send(sort)
-    let sortedFd = 1
-
-    // return res.send(req.query)
+    if(req.query.country)
+    {
+        let countryParams = underscoreToArraySplit(req.query.country)
+        console.log(countryParams)
+        if (countryParams && countryParams.length > 0) {
+            query.CountryId = {$in : countryParams};
+        }
+    }
     try {
-        const allproduct = await Product.find().populate(
-            [
-                { path: 'club', select: 'name' },
-                { path: 'country', select: 'name' },
-               
-            ]).sort({ price: sortedFd }).exec();
-        return res.status(200).json(allproduct)
+     
+        const products = await Product.find(query);
+        if (products === null) {
+           return res.status(404).json({ msg: 'product not found'  });
+        } 
+        return res.status(200).json(products)
     } catch (error) {
         return res.status(400).json(validationErrorHumanify(error))
     }
+
+
+    
+
 })
 const getProduct = (async (req, res) => {
     const productID = (req.params.id)
