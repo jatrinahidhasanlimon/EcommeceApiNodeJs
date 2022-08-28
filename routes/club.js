@@ -11,9 +11,7 @@ const  {
 
 router.get('/', getClubs)
 router.get('/:id', getClub)
-router.post('/', upload, (req, res)=>{
-    res.status(200).json('Finally') 
-}) 
+router.post('/', upload, createClub) 
 router.put('/:id', updateClub) 
 router.delete('/:id', deleteClub)
 
