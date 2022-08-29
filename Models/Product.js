@@ -11,6 +11,11 @@ const ProductSchema = new mongoose.Schema({
         required: true,
         maxLength:  [54, 'Maximum 54, got {VALUE}'],
     },
+    sample:{
+      type: String,
+      required: true,
+      maxLength:  [54, 'Maximum 54, got {VALUE}'],
+  },
    
     category: {
         type: mongoose.Schema.Types.ObjectId,

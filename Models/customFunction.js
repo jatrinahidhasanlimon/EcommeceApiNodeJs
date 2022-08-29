@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const underscoreToArraySplit =  (params) => {
+const underscoreToArrayofObjectIdSplit =  (params) => {
     let splitted = params.split('_')
     splitted = splitted.map(item => {
         return new mongoose.Types.ObjectId(item)
@@ -9,6 +9,15 @@ const underscoreToArraySplit =  (params) => {
     return splitted
 }
 
+const underscoreToArrayLoweCaseSplit =  (params) => {
+    let splitted = params.split('_')
+    splitted = splitted.map(item => {
+        return item.toLowerCase()
+    })
+    return splitted
+}
+
 module.exports = {
-    underscoreToArraySplit
+    underscoreToArrayofObjectIdSplit,
+    underscoreToArrayLoweCaseSplit
 }

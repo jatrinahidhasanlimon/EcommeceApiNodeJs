@@ -2,13 +2,13 @@ const Product = require('../models/Product.js');
 const mongoose = require('mongoose')
 
 const {validationErrorHumanify} = require('../models/ErrorHandler.js');
-const {underscoreToArraySplit} = require('../models/customFunction.js');
+const {underscoreToArrayofObjectIdSplit, underscoreToArrayLoweCaseSplit} = require('../models/customFunction.js');
 
 const getProducts = (async (req, res) => {
     let query = {}
     if(req.query.club)
     {
-        let clubParams = underscoreToArraySplit(req.query.club)
+        let clubParams = underscoreToArrayofObjectIdSplit(req.query.club)
         console.log(clubParams)
         if (clubParams && clubParams.length > 0) {
             query.club = {$in : clubParams};
@@ -16,10 +16,11 @@ const getProducts = (async (req, res) => {
     }
     if(req.query.country)
     {
-        let countryParams = underscoreToArraySplit(req.query.country)
-        console.log(countryParams)
+        let countryParams = underscoreToArrayLoweCaseSplit(req.query.country)
+        console.log('params are',countryParams)
         if (countryParams && countryParams.length > 0) {
-            query.CountryId = {$in : countryParams};
+            query.sample = {$in : countryParams};
+        console.log('inside country ')
         }
     }
     try {
