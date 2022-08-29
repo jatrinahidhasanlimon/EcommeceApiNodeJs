@@ -2,7 +2,7 @@ const multer  = require('multer')
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, './uploads');
+        cb(null, './uploads/category');
     },
     filename: function (req, file, cb) {
         const custom_image_name = Date.now() + "--" + file.originalname
@@ -28,4 +28,4 @@ const fileFilter = (req, file, cb) => {
 let upload = multer({ storage: storage, fileFilter: fileFilter,});
 
 // export default upload.single('image')
-module.exports = upload.single('image')
+module.exports = upload.any('image')

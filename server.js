@@ -6,6 +6,7 @@ const product_routes = require('./routes/product.js')
 const general_routes = require('./routes/general.js')
 const club_routes = require('./routes/club.js')
 const country_routes = require('./routes/country.js')
+const category_routes = require('./routes/category.js')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser');
 const auth = require("./middleware/auth");
@@ -58,6 +59,7 @@ app.use('/api/user',  user_routes)
 app.use('/api/product', product_routes)
 app.use('/api/club', club_routes)
 app.use('/api/country', country_routes)
+app.use('/api/category', category_routes)
 app.use('/', general_routes)
 
 
