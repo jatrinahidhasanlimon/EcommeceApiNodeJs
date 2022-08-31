@@ -39,6 +39,46 @@ const getProducts = (async (req, res) => {
         let matchString =  {
                 'Country.name' : new RegExp('\spain\*')
             }
+            
+           let check_club = { 
+                        'Club._id' : { 
+                            $in: [ mongoose.Types.ObjectId('62fe8b13d4be7699455d13b3') ] 
+                    }  }
+        let check_countr = {
+           
+                'Country.name' : {
+                    $in: [
+                            'Spain',
+                    ]    
+                    }
+        }
+        // extend( check_club, check_countr );
+
+        let whatthehell = 
+                                    {
+                                        $or: [
+                                            
+                                        {
+                                            'Club._id' : {
+                                                $in: [
+                                                        mongoose.Types.ObjectId('62ff9070b768e60d2f2e9a97'),
+                                                        mongoose.Types.ObjectId('62fe8acbd4be7699455d13b2')
+                                                ]    
+                                                }
+                                        },
+                                        {
+                                            'Country._id' : {
+                                                $in: [
+                                                        mongoose.Types.ObjectId('630b4f3208e80aab62e20ffd'),
+                                                ]    
+                                                }
+                                        },
+                                    
+                                   
+                                    ],
+                                    check_club
+                                } 
+                                
         
              countrySeg = 
                 [
@@ -51,6 +91,11 @@ const getProducts = (async (req, res) => {
                             as: 'Country'
                         },
                     },
+                   
+                    {
+                        $unwind: {path: '$Club', preserveNullAndEmptyArrays: true}
+
+                    },
                     {
                         $lookup: {
                             from: 'clubs',
@@ -60,42 +105,24 @@ const getProducts = (async (req, res) => {
                         },
                     },
                     {
-                        $unwind: '$Club',
+                        $unwind: {path: '$Country', preserveNullAndEmptyArrays: true}
 
                     },
                     {
-                        $unwind: '$Country',
-
-                    },
-                    {
-                        $match: { 
-                            $and : [
-                                    {
-                                        $or: [
-                                            
-                                        {
-                                            'Club._id' : {
-                                                $in: [
-                                                        mongoose.Types.ObjectId('630b4f3208e80aab62e20ffe'),
-                                                        mongoose.Types.ObjectId('630b4f1408e80aab62e20ffc')
-                                                ]    
-                                                }
-                                        },
-                                        {
-                                            'Country._id' : {
-                                                $in: [
-                                                        mongoose.Types.ObjectId('630b4f3208e80aab62e20ffe'),
-                                                        mongoose.Types.ObjectId('630b4f1408e80aab62e20ffc')
-                                                ]    
-                                                }
-                                        },
-                                    
-                                   
-                                    ]
+                        $match: {
+                           $and: [
+                            {
+                                $or: [
                                 
-                                } 
-                            ]
-                        }
+                                    check_club,
+                                    check_countr
+                           
+                            ],
+                            }
+                           ]
+                        
+                    } 
+                    
                     },
 
 
