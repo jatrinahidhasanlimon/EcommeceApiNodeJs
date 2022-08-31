@@ -6,6 +6,11 @@ const {underscoreToArrayofObjectIdSplit, underscoreToArrayLoweCaseSplit} = requi
 
 const getProducts = (async (req, res) => {
     let query = {}
+    let lookup = {}
+    let unwind = ''
+    let matchString = {}
+    let countrySeg = {}
+    
     if(req.query.club)
     {
         let clubParams = underscoreToArrayofObjectIdSplit(req.query.club)
@@ -18,14 +23,105 @@ const getProducts = (async (req, res) => {
     {
         let countryParams = underscoreToArrayLoweCaseSplit(req.query.country)
         console.log('params are',countryParams)
-        if (countryParams && countryParams.length > 0) {
-            query.sample = {$in : countryParams};
-        console.log('inside country ')
+        // if (countryParams && countryParams.length > 0) {
+        //     query.sample = {$in : countryParams};
+        // console.log('inside country ')
+        // }
+    //    const qDemo = await  Product.aggregate([
+         lookup = {
+            from: 'countries',
+            localField: 'country',
+            foreignField: '_id',
+            as: 'Country'
         }
+
+        let unwind =  '$Country'
+        let matchString =  {
+                'Country.name' : new RegExp('\spain\*')
+            }
+        
+             countrySeg = 
+                [
+                // $match: { 'Country.name' : new RegExp('\spain\*')}
+                    {
+                        $lookup: {
+                            from: 'countries',
+                            localField: 'country',
+                            foreignField: '_id',
+                            as: 'Country'
+                        },
+                    },
+                    {
+                        $lookup: {
+                            from: 'clubs',
+                            localField: 'club',
+                            foreignField: '_id',
+                            as: 'Club'
+                        },
+                    },
+                    {
+                        $unwind: '$Club',
+
+                    },
+                    {
+                        $unwind: '$Country',
+
+                    },
+                    {
+                        $match: { 
+                            $and : [
+                                    {
+                                        $or: [
+                                            
+                                        {
+                                            'Club._id' : {
+                                                $in: [
+                                                        mongoose.Types.ObjectId('630b4f3208e80aab62e20ffe'),
+                                                        mongoose.Types.ObjectId('630b4f1408e80aab62e20ffc')
+                                                ]    
+                                                }
+                                        },
+                                        {
+                                            'Country._id' : {
+                                                $in: [
+                                                        mongoose.Types.ObjectId('630b4f3208e80aab62e20ffe'),
+                                                        mongoose.Types.ObjectId('630b4f1408e80aab62e20ffc')
+                                                ]    
+                                                }
+                                        },
+                                    
+                                   
+                                    ]
+                                
+                                } 
+                            ]
+                        }
+                    },
+
+
+//club 
+
+
+                    
+                   
+            ]
+
+    
+        
+        
+        // return res.send(qDemo)
+
     }
+    
     try {
      
-        const products = await Product.find(query);
+        // const products = await Product.find(query);
+
+       const  products = await  Product.aggregate( countrySeg )
+
+
+
+
         if (products === null) {
            return res.status(404).json({ msg: 'product not found'  });
         } 
