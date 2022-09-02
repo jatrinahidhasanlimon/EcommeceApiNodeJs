@@ -16,8 +16,16 @@ const underscoreToArrayLoweCaseSplit =  (params) => {
     })
     return splitted
 }
+const hyphenToArrayLoweCaseSplit =  (params) => {
+    let splitted = params.split('-')
+    splitted = splitted.map(item => {
+        return item.toLowerCase()
+    })
+    return splitted
+}
 
 module.exports = {
     underscoreToArrayofObjectIdSplit,
-    underscoreToArrayLoweCaseSplit
+    underscoreToArrayLoweCaseSplit,
+    hyphenToArrayLoweCaseSplit
 }

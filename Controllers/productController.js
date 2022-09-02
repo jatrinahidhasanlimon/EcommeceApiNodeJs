@@ -2,153 +2,77 @@ const Product = require('../models/Product.js');
 const mongoose = require('mongoose')
 
 const {validationErrorHumanify} = require('../models/ErrorHandler.js');
-const {underscoreToArrayofObjectIdSplit, underscoreToArrayLoweCaseSplit} = require('../models/customFunction.js');
+const {underscoreToArrayofObjectIdSplit, underscoreToArrayLoweCaseSplit,hyphenToArrayLoweCaseSplit} = require('../models/customFunction.js');
 
 const getProducts = (async (req, res) => {
     let query = {}
     let lookup = {}
     let unwind = ''
     let matchString = {}
-    let countrySeg = {}
+    let finalRawQuery = {}
+    let check_club = {}
+    let check_countr = {}
+    let demoRawQuery = []
     
     if(req.query.club)
     {
-        let clubParams = underscoreToArrayofObjectIdSplit(req.query.club)
-        console.log(clubParams)
-        if (clubParams && clubParams.length > 0) {
-            query.club = {$in : clubParams};
-        }
+        let clubParamsArr = underscoreToArrayLoweCaseSplit(req.query.club)
+        // console.log('club params are',clubParamsArr)
+        demoRawQuery.push({
+            $lookup: {
+                from: 'clubs',
+                localField: 'club',
+                foreignField: '_id',
+                as: 'Club'
+            }
+        },{
+            $unwind: {path: '$Club', preserveNullAndEmptyArrays: false}
+
+        },
+        {   $match: {'Club.name' : {$in: clubParamsArr  } }} 
+        )
+        
     }
     if(req.query.country)
     {
-        let countryParams = underscoreToArrayLoweCaseSplit(req.query.country)
-        console.log('params are',countryParams)
-        // if (countryParams && countryParams.length > 0) {
-        //     query.sample = {$in : countryParams};
-        // console.log('inside country ')
-        // }
-    //    const qDemo = await  Product.aggregate([
-         lookup = {
-            from: 'countries',
-            localField: 'country',
-            foreignField: '_id',
-            as: 'Country'
-        }
+        let countryParamsArr = underscoreToArrayLoweCaseSplit(req.query.country)
+        // console.log('country params are',countryParamsArr)
+        demoRawQuery.push({
+                $lookup: {
+                    from: 'countries',
+                    localField: 'country',
+                    foreignField: '_id',
+                    as: 'Country'
+                }
+            },{
+                $unwind: {path: '$Country', preserveNullAndEmptyArrays: false}
 
-        let unwind =  '$Country'
-        let matchString =  {
-                'Country.name' : new RegExp('\spain\*')
-            }
-            
-           let check_club = { 
-                        'Club._id' : { 
-                            $in: [ mongoose.Types.ObjectId('62fe8b13d4be7699455d13b3') ] 
-                    }  }
-        let check_countr = {
-           
-                'Country.name' : {
-                    $in: [
-                            'Spain',
-                    ]    
-                    }
-        }
-        // extend( check_club, check_countr );
+            }, 
+            {   $match: {'Country.name' : {$in: countryParamsArr  } }}
+        )
 
-        let whatthehell = 
-                                    {
-                                        $or: [
-                                            
-                                        {
-                                            'Club._id' : {
-                                                $in: [
-                                                        mongoose.Types.ObjectId('62ff9070b768e60d2f2e9a97'),
-                                                        mongoose.Types.ObjectId('62fe8acbd4be7699455d13b2')
-                                                ]    
-                                                }
-                                        },
-                                        {
-                                            'Country._id' : {
-                                                $in: [
-                                                        mongoose.Types.ObjectId('630b4f3208e80aab62e20ffd'),
-                                                ]    
-                                                }
-                                        },
-                                    
-                                   
-                                    ],
-                                    check_club
-                                } 
-                                
+    }
+    if(req.query.sortBy){
+        let sortByParamsArr = hyphenToArrayLoweCaseSplit(req.query.sortBy)
+        console.log('query is', sortByParamsArr)
+        let sortPm = {}
+        sortPm[sortByParamsArr[0]] = sortByParamsArr[1] == 'asc'  ? 1 : -1
+        sort = { $sort: sortPm }
+        console.log('ok is',sort)
+        demoRawQuery.push(sort ? sort : [])
         
-             countrySeg = 
-                [
-                // $match: { 'Country.name' : new RegExp('\spain\*')}
-                    {
-                        $lookup: {
-                            from: 'countries',
-                            localField: 'country',
-                            foreignField: '_id',
-                            as: 'Country'
-                        },
-                    },
-                   
-                    {
-                        $unwind: {path: '$Club', preserveNullAndEmptyArrays: true}
-
-                    },
-                    {
-                        $lookup: {
-                            from: 'clubs',
-                            localField: 'club',
-                            foreignField: '_id',
-                            as: 'Club'
-                        },
-                    },
-                    {
-                        $unwind: {path: '$Country', preserveNullAndEmptyArrays: true}
-
-                    },
-                    {
-                        $match: {
-                           $and: [
-                            {
-                                $or: [
-                                
-                                    check_club,
-                                    check_countr
-                           
-                            ],
-                            }
-                           ]
-                        
-                    } 
-                    
-                    },
-
-
-//club 
-
-
-                    
-                   
-            ]
-
-    
-        
-        
-        // return res.send(qDemo)
-
     }
     
     try {
-     
-        // const products = await Product.find(query);
-
-       const  products = await  Product.aggregate( countrySeg )
-
-
-
-
+        // const products = await Product.find(demoRawQuery);
+    //    const  products = await  Product.aggregate( finalRawQuery )
+    
+    
+    // sortPm[ok] = -1
+    // console.log('ok is',sortPm)
+    
+        console.log('demo is: ',demoRawQuery)
+       const  products = await  Product.aggregate( demoRawQuery )
         if (products === null) {
            return res.status(404).json({ msg: 'product not found'  });
         } 

@@ -5255,3 +5255,428 @@
 {"timestamp":"2022-08-31T20:55:51.673Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
 {"timestamp":"2022-08-31T20:56:03.998Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
 {"timestamp":"2022-08-31T20:56:10.796Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:15:07.280Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:16:37.208Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:37.212Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:37.213Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:37.214Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:40.873Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:40.874Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:40.874Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:40.876Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:44.749Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:16:47.592Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:47.594Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:47.598Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:16:47.597Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:16:52.868Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:16:55.433Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:17:04.036Z","url":"/api/product?country=England_Spain","params":{},"query":{"country":"England_Spain"}}
+{"timestamp":"2022-09-02T14:17:08.992Z","url":"/api/product?country=England_Spain_Equador","params":{},"query":{"country":"England_Spain_Equador"}}
+{"timestamp":"2022-09-02T14:17:17.114Z","url":"/api/product?country=England_Equador","params":{},"query":{"country":"England_Equador"}}
+{"timestamp":"2022-09-02T14:17:19.819Z","url":"/api/product?country=Equador","params":{},"query":{"country":"Equador"}}
+{"timestamp":"2022-09-02T14:17:22.576Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:17:28.986Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:17:28.990Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:17:28.991Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:17:28.993Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:18:09.575Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:18:09.584Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:18:09.583Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:18:09.594Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T14:18:55.384Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:01.197Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:01.911Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:02.635Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:03.130Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:03.833Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:04.317Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:39.293Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:19:40.167Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:20:25.062Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:20:30.899Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:20:36.106Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:20:36.791Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:20:37.262Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:32:47.625Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:34:24.777Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:34:28.706Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:34:38.361Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:34:48.403Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:34:58.242Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:35:05.712Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:35:11.704Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:35:56.487Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:36:08.301Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:36:15.240Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:36:20.799Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:37:09.774Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:37:13.291Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:37:13.954Z","url":"/api/product?country=Spain","params":{},"query":{"country":"Spain"}}
+{"timestamp":"2022-09-02T14:37:27.729Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:38:00.857Z","url":"/api/product?country=England","params":{},"query":{"country":"England"}}
+{"timestamp":"2022-09-02T14:38:16.769Z","url":"/api/product?country=England_spain","params":{},"query":{"country":"England_spain"}}
+{"timestamp":"2022-09-02T14:38:30.678Z","url":"/api/product?country=England_spain","params":{},"query":{"country":"England_spain"}}
+{"timestamp":"2022-09-02T14:38:31.240Z","url":"/api/product?country=England_spain","params":{},"query":{"country":"England_spain"}}
+{"timestamp":"2022-09-02T14:38:31.928Z","url":"/api/product?country=England_spain","params":{},"query":{"country":"England_spain"}}
+{"timestamp":"2022-09-02T14:38:32.471Z","url":"/api/product?country=England_spain","params":{},"query":{"country":"England_spain"}}
+{"timestamp":"2022-09-02T14:38:33.251Z","url":"/api/product?country=England_spain","params":{},"query":{"country":"England_spain"}}
+{"timestamp":"2022-09-02T14:39:37.051Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:39:50.215Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:39:57.481Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:40:21.469Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:43:51.252Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:44:02.471Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:45:07.208Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:50:41.591Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T14:52:22.481Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:30:36.852Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:30:53.804Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:31:43.920Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:32:50.190Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:35:15.601Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:35:29.234Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:35:59.191Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:03.540Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:05.336Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:26.596Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:32.861Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:51.587Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:52.278Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:36:52.885Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:13.414Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T15:37:19.337Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:21.697Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:22.264Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:22.771Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:23.123Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:23.542Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:24.092Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:24.675Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:25.191Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:25.510Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:37:52.733Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:38:40.792Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:38:43.066Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:38:43.647Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:38:49.242Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:39:43.631Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:39:56.691Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:01.551Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:02.268Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:32.839Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:34.412Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:35.099Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:35.662Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:41:51.279Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:42:25.188Z","url":"/api/product?country=England_spain&club=Barcelona","params":{},"query":{"country":"England_spain","club":"Barcelona"}}
+{"timestamp":"2022-09-02T15:42:47.945Z","url":"/api/product?country=England_spain&club=Barcelona_espaniyol","params":{},"query":{"country":"England_spain","club":"Barcelona_espaniyol"}}
+{"timestamp":"2022-09-02T15:42:57.386Z","url":"/api/product?country=England_spain&club=Barcelona_espaniyol","params":{},"query":{"country":"England_spain","club":"Barcelona_espaniyol"}}
+{"timestamp":"2022-09-02T15:43:27.335Z","url":"/api/product?country=England_spain&club=Barcelona_espaniyol","params":{},"query":{"country":"England_spain","club":"Barcelona_espaniyol"}}
+{"timestamp":"2022-09-02T15:43:36.715Z","url":"/api/product?club=Barcelona_espaniyol","params":{},"query":{"club":"Barcelona_espaniyol"}}
+{"timestamp":"2022-09-02T15:43:51.053Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:44:24.527Z","url":"/api/product?club=espaniyol&country=England_spain&","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:44:27.057Z","url":"/api/product?club=espaniyol&country=England_spain&","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:44:29.341Z","url":"/api/product?club=espaniyol&country=England_spain&","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:44:33.997Z","url":"/api/product?club=espaniyol&country=England_spain","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:44:37.849Z","url":"/api/product?club=espaniyol&country=England_spain","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:47:24.203Z","url":"/api/product?club=espaniyol&country=England_spain","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:47:25.114Z","url":"/api/product?club=espaniyol&country=England_spain","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:47:25.830Z","url":"/api/product?club=espaniyol&country=England_spain","params":{},"query":{"club":"espaniyol","country":"England_spain"}}
+{"timestamp":"2022-09-02T15:47:43.830Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:47:49.267Z","url":"/api/product?club=espaniyolf","params":{},"query":{"club":"espaniyolf"}}
+{"timestamp":"2022-09-02T15:47:51.956Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:47:59.577Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:48:01.208Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:48:01.933Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:48:05.291Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:48:06.009Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:48:06.692Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:49:12.118Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:49:13.042Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:49:23.191Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:49:26.071Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:49:26.865Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:49:33.042Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:00.463Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:01.068Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:01.562Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:01.978Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:11.500Z","url":"/api/product?country=England&club=espaniyol","params":{},"query":{"country":"England","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:15.494Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:18.565Z","url":"/api/product?country=England_spain&club=espaniyol","params":{},"query":{"country":"England_spain","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:20.585Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:51.719Z","url":"/api/product?country=England_spain_banglades&club=espaniyol","params":{},"query":{"country":"England_spain_banglades","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:50:54.944Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:51:03.627Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:51:04.144Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:51:04.942Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:52:13.239Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:52:27.698Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:52:28.417Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T15:52:32.059Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T15:52:32.064Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T15:52:32.065Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T15:52:32.072Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T15:52:34.348Z","url":"/api/product?country=england","params":{},"query":{"country":"england"}}
+{"timestamp":"2022-09-02T15:52:39.552Z","url":"/api/product?country=england_bangladesh","params":{},"query":{"country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T15:52:49.079Z","url":"/api/product?country=bangladesh","params":{},"query":{"country":"bangladesh"}}
+{"timestamp":"2022-09-02T15:52:53.445Z","url":"/api/product?country=bangladesh_england","params":{},"query":{"country":"bangladesh_england"}}
+{"timestamp":"2022-09-02T15:53:00.302Z","url":"/api/product?country=bangladesh_england_spain","params":{},"query":{"country":"bangladesh_england_spain"}}
+{"timestamp":"2022-09-02T15:53:05.251Z","url":"/api/product?country=england_spain","params":{},"query":{"country":"england_spain"}}
+{"timestamp":"2022-09-02T15:53:10.351Z","url":"/api/product?country=england_spain_bangladesh","params":{},"query":{"country":"england_spain_bangladesh"}}
+{"timestamp":"2022-09-02T15:53:11.200Z","url":"/api/product?country=england_spain","params":{},"query":{"country":"england_spain"}}
+{"timestamp":"2022-09-02T15:53:11.920Z","url":"/api/product?country=england_spain_bangladesh","params":{},"query":{"country":"england_spain_bangladesh"}}
+{"timestamp":"2022-09-02T15:53:12.545Z","url":"/api/product?country=england_spain","params":{},"query":{"country":"england_spain"}}
+{"timestamp":"2022-09-02T15:53:13.217Z","url":"/api/product?country=england_spain_bangladesh","params":{},"query":{"country":"england_spain_bangladesh"}}
+{"timestamp":"2022-09-02T15:53:15.226Z","url":"/api/product?country=england_spain","params":{},"query":{"country":"england_spain"}}
+{"timestamp":"2022-09-02T15:53:15.672Z","url":"/api/product?country=england_spain_bangladesh","params":{},"query":{"country":"england_spain_bangladesh"}}
+{"timestamp":"2022-09-02T15:53:17.618Z","url":"/api/product?country=england_spain","params":{},"query":{"country":"england_spain"}}
+{"timestamp":"2022-09-02T15:53:21.772Z","url":"/api/product?country=england_spain_bangladesh","params":{},"query":{"country":"england_spain_bangladesh"}}
+{"timestamp":"2022-09-02T15:56:03.366Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1"}}
+{"timestamp":"2022-09-02T15:56:08.636Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf"}}
+{"timestamp":"2022-09-02T15:56:14.992Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62fe8b13d4be7699455d13b3","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62fe8b13d4be7699455d13b3"}}
+{"timestamp":"2022-09-02T15:56:16.607Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62fe8b13d4be7699455d13b3_62ff96f4b768e60d2f2e9ab6","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62fe8b13d4be7699455d13b3_62ff96f4b768e60d2f2e9ab6"}}
+{"timestamp":"2022-09-02T16:13:26.812Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:28.919Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:29.383Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:29.730Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:30.085Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:30.862Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:31.636Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:32.577Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:13:54.504Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6"}}
+{"timestamp":"2022-09-02T16:13:55.111Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6_62fe8b13d4be7699455d13b3","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6_62fe8b13d4be7699455d13b3"}}
+{"timestamp":"2022-09-02T16:13:55.666Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6"}}
+{"timestamp":"2022-09-02T16:14:21.791Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:21.795Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:21.796Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6"}}
+{"timestamp":"2022-09-02T16:14:21.804Z","url":"/api/product?country=england_spain_bangladesh&club=62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6","params":{},"query":{"country":"england_spain_bangladesh","club":"62fe8acbd4be7699455d13b1_62ff96e8b768e60d2f2e9aaf_62ff96f4b768e60d2f2e9ab6"}}
+{"timestamp":"2022-09-02T16:14:27.362Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:27.365Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:27.366Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:27.367Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:32.119Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-02T16:14:34.827Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:14:36.125Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T16:14:41.696Z","url":"/api/product?club=espaniyol&country=england","params":{},"query":{"club":"espaniyol","country":"england"}}
+{"timestamp":"2022-09-02T16:14:42.950Z","url":"/api/product?club=espaniyol&country=england_bangladesh","params":{},"query":{"club":"espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:14:48.911Z","url":"/api/product?club=espaniyol_real+madrid&country=england_bangladesh","params":{},"query":{"club":"espaniyol_real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:14:59.403Z","url":"/api/product?club=espaniyol&country=england_bangladesh","params":{},"query":{"club":"espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:00.457Z","url":"/api/product?club=espaniyol_real+madrid&country=england_bangladesh","params":{},"query":{"club":"espaniyol_real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:01.746Z","url":"/api/product?club=espaniyol&country=england_bangladesh","params":{},"query":{"club":"espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:02.681Z","url":"/api/product?club=espaniyol_real+madrid&country=england_bangladesh","params":{},"query":{"club":"espaniyol_real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:04.274Z","url":"/api/product?club=espaniyol&country=england_bangladesh","params":{},"query":{"club":"espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:04.841Z","url":"/api/product?club=espaniyol_real+madrid&country=england_bangladesh","params":{},"query":{"club":"espaniyol_real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:33.958Z","url":"/api/product?club=real+madrid&country=england_bangladesh","params":{},"query":{"club":"real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:34.359Z","url":"/api/product?club=real+madrid_espaniyol&country=england_bangladesh","params":{},"query":{"club":"real madrid_espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:36.120Z","url":"/api/product?club=espaniyol&country=england_bangladesh","params":{},"query":{"club":"espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:36.586Z","url":"/api/product?club=espaniyol_real+madrid&country=england_bangladesh","params":{},"query":{"club":"espaniyol_real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:37.698Z","url":"/api/product?club=real+madrid&country=england_bangladesh","params":{},"query":{"club":"real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:38.065Z","url":"/api/product?club=real+madrid_espaniyol&country=england_bangladesh","params":{},"query":{"club":"real madrid_espaniyol","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:15:39.314Z","url":"/api/product?club=real+madrid&country=england_bangladesh","params":{},"query":{"club":"real madrid","country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:16:00.568Z","url":"/api/product?country=england_bangladesh","params":{},"query":{"country":"england_bangladesh"}}
+{"timestamp":"2022-09-02T16:16:01.088Z","url":"/api/product?country=england_bangladesh&club=real+madrid","params":{},"query":{"country":"england_bangladesh","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:16:03.591Z","url":"/api/product?country=england_bangladesh&club=real+madrid_barcelona","params":{},"query":{"country":"england_bangladesh","club":"real madrid_barcelona"}}
+{"timestamp":"2022-09-02T16:16:23.387Z","url":"/api/product?country=england_bangladesh&club=real+madrid","params":{},"query":{"country":"england_bangladesh","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:16:25.665Z","url":"/api/product?country=england_bangladesh&club=real+madrid_barcelona","params":{},"query":{"country":"england_bangladesh","club":"real madrid_barcelona"}}
+{"timestamp":"2022-09-02T16:16:41.287Z","url":"/api/product?country=england_bangladesh_equador&club=real+madrid_barcelona","params":{},"query":{"country":"england_bangladesh_equador","club":"real madrid_barcelona"}}
+{"timestamp":"2022-09-02T16:16:41.987Z","url":"/api/product?country=england_bangladesh&club=real+madrid_barcelona","params":{},"query":{"country":"england_bangladesh","club":"real madrid_barcelona"}}
+{"timestamp":"2022-09-02T16:16:50.457Z","url":"/api/product?country=england_bangladesh_spain&club=real+madrid_barcelona","params":{},"query":{"country":"england_bangladesh_spain","club":"real madrid_barcelona"}}
+{"timestamp":"2022-09-02T16:16:59.169Z","url":"/api/product?country=england_bangladesh_spain&club=real+madrid_barcelona_espaniyol","params":{},"query":{"country":"england_bangladesh_spain","club":"real madrid_barcelona_espaniyol"}}
+{"timestamp":"2022-09-02T16:17:07.379Z","url":"/api/product?country=england_bangladesh_spain&club=real+madrid_barcelona","params":{},"query":{"country":"england_bangladesh_spain","club":"real madrid_barcelona"}}
+{"timestamp":"2022-09-02T16:17:12.852Z","url":"/api/product?country=england_bangladesh_spain&club=real+madrid","params":{},"query":{"country":"england_bangladesh_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:28.096Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:35.673Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:35.683Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:35.685Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:35.693Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:42.105Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:42.108Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:42.118Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:42.113Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:43.519Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:43.523Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:43.523Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:43.529Z","url":"/api/product?country=england_spain&club=real+madrid","params":{},"query":{"country":"england_spain","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:45.454Z","url":"/api/product?country=england_spain_equador&club=real+madrid","params":{},"query":{"country":"england_spain_equador","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:46.862Z","url":"/api/product?country=england_spain_equador_bangladesh&club=real+madrid","params":{},"query":{"country":"england_spain_equador_bangladesh","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:50.716Z","url":"/api/product?country=england_spain_equador&club=real+madrid","params":{},"query":{"country":"england_spain_equador","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:51.279Z","url":"/api/product?country=spain_equador&club=real+madrid","params":{},"query":{"country":"spain_equador","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:51.832Z","url":"/api/product?country=equador&club=real+madrid","params":{},"query":{"country":"equador","club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:52.248Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:55.053Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:55.057Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:17:55.057Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:17:55.059Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:18:25.947Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:25.950Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:25.953Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:18:25.954Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:18:32.138Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:32.142Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:32.142Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:18:32.145Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-02T16:18:38.620Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:38.620Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:38.623Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T16:18:38.624Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:35.320Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:35.325Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:35.331Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:35.327Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:38.117Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-02T17:12:38.578Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:39.162Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-02T17:12:40.400Z","url":"/api/product?club=barcelona_real+madrid","params":{},"query":{"club":"barcelona_real madrid"}}
+{"timestamp":"2022-09-02T17:12:41.132Z","url":"/api/product?club=barcelona_real+madrid_espaniyol","params":{},"query":{"club":"barcelona_real madrid_espaniyol"}}
+{"timestamp":"2022-09-02T17:12:41.783Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United"}}
+{"timestamp":"2022-09-02T17:12:42.293Z","url":"/api/product?club=barcelona_espaniyol_Manchester+United","params":{},"query":{"club":"barcelona_espaniyol_Manchester United"}}
+{"timestamp":"2022-09-02T17:12:42.649Z","url":"/api/product?club=espaniyol_Manchester+United","params":{},"query":{"club":"espaniyol_Manchester United"}}
+{"timestamp":"2022-09-02T17:12:43.981Z","url":"/api/product?club=Manchester+United","params":{},"query":{"club":"Manchester United"}}
+{"timestamp":"2022-09-02T17:12:44.442Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:45.940Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:45.944Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:45.946Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:45.948Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:47.958Z","url":"/api/product?country=bangladesh","params":{},"query":{"country":"bangladesh"}}
+{"timestamp":"2022-09-02T17:12:51.204Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:52.778Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:52.782Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:52.784Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:52.786Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:55.209Z","url":"/api/product?country=equador","params":{},"query":{"country":"equador"}}
+{"timestamp":"2022-09-02T17:12:57.087Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:57.089Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:12:57.092Z","url":"/api/product?country=equador","params":{},"query":{"country":"equador"}}
+{"timestamp":"2022-09-02T17:12:57.095Z","url":"/api/product?country=equador","params":{},"query":{"country":"equador"}}
+{"timestamp":"2022-09-02T17:12:58.652Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:13:01.682Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:13:01.684Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:13:01.687Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:13:01.688Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:17:15.246Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:18:21.810Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:18:37.294Z","url":"/api/product?country=England_spain_bangladesh","params":{},"query":{"country":"England_spain_bangladesh"}}
+{"timestamp":"2022-09-02T17:18:43.889Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:31:32.753Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:31:32.758Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:31:32.760Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:31:32.766Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:32:20.006Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:32:44.467Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:32:47.112Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:32:47.719Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-02T17:32:51.026Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:32:53.329Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:32:53.874Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:32:54.331Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:32:54.749Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:32:55.161Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:33:17.187Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:33:22.839Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:33:33.903Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:37:45.444Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:37:51.882Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:38:12.365Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:38:13.121Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:38:17.846Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:38:31.584Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:38:37.849Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:38:44.753Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:39:03.760Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:39:10.979Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:39:38.473Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:40:07.015Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:40:56.430Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:41:12.987Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:41:34.341Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:42:08.322Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:42:20.306Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:42:42.400Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:43:20.017Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:43:36.589Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:43:49.425Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T17:43:57.845Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:49:12.715Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:49:13.434Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:56:50.989Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:56:51.608Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:56:52.276Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:18.780Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:22.716Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:23.471Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:24.041Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:24.533Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:25.006Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:25.474Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:33.597Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:34.401Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:57:35.032Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:00.695Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:01.542Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:08.004Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:08.861Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:13.446Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:14.118Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:14.686Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:39.710Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:40.524Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:58:41.143Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:59:06.635Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T19:59:26.281Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:01:11.589Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:01:33.545Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:02:22.911Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:02:43.107Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:03:51.613Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:03:59.014Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:03:59.027Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:03:59.029Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:03:59.034Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:04:43.358Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:04:43.360Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:04:43.367Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:04:43.369Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:05:06.145Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:05:06.148Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:05:06.153Z","url":"/api/product?sortBy=price-ASC","params":{},"query":{"sortBy":"price-ASC"}}
+{"timestamp":"2022-09-02T20:05:06.157Z","url":"/api/product?sortBy=price-ASC","params":{},"query":{"sortBy":"price-ASC"}}
+{"timestamp":"2022-09-02T20:05:23.799Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:05:23.801Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:05:23.805Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:05:23.806Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:05:49.219Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:05:49.222Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:05:49.223Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:05:49.226Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:06:33.183Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:06:35.113Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:07:28.930Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-02T20:09:19.695Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:09:26.553Z","url":"/api/product?sortBy=price-ASC","params":{},"query":{"sortBy":"price-ASC"}}
+{"timestamp":"2022-09-02T20:09:44.542Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:10:00.125Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:12:18.798Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-02T20:12:52.495Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-02T20:14:17.111Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-02T20:14:57.717Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:16:17.367Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:16:17.375Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-02T20:16:17.382Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:16:17.376Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:16:17.393Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-02T20:23:35.967Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:23:36.856Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:23:37.561Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:24:06.883Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol"}}
+{"timestamp":"2022-09-02T20:24:29.974Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-asc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-asc"}}
+{"timestamp":"2022-09-02T20:24:40.226Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:24:55.971Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:25:16.441Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:25:22.987Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-asc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-asc"}}
+{"timestamp":"2022-09-02T20:26:04.302Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-ascf","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-ascf"}}
+{"timestamp":"2022-09-02T20:26:11.792Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-ascf","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-ascf"}}
+{"timestamp":"2022-09-02T20:26:17.936Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-asc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-asc"}}
+{"timestamp":"2022-09-02T20:26:19.124Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-asc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-asc"}}
+{"timestamp":"2022-09-02T20:26:25.854Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
