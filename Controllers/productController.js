@@ -5,74 +5,40 @@ const {validationErrorHumanify} = require('../models/ErrorHandler.js');
 const {underscoreToArrayofObjectIdSplit, underscoreToArrayLoweCaseSplit,hyphenToArrayLoweCaseSplit} = require('../models/customFunction.js');
 
 const getProducts = (async (req, res) => {
-    let query = {}
-    let lookup = {}
-    let unwind = ''
-    let matchString = {}
-    let finalRawQuery = {}
-    let check_club = {}
-    let check_countr = {}
-    let demoRawQuery = []
+    let sortParameter = { name: -1 }
+    let aggregatePipeLineQuery = []
     
     if(req.query.club)
     {
         let clubParamsArr = underscoreToArrayLoweCaseSplit(req.query.club)
         // console.log('club params are',clubParamsArr)
-        demoRawQuery.push({
-            $lookup: {
-                from: 'clubs',
-                localField: 'club',
-                foreignField: '_id',
-                as: 'Club'
-            }
-        },{
-            $unwind: {path: '$Club', preserveNullAndEmptyArrays: false}
-
-        },
-        {   $match: {'Club.name' : {$in: clubParamsArr  } }} 
-        )
+        aggregatePipeLineQuery.push({ $lookup: { from: 'clubs', localField: 'club',foreignField: '_id', as: 'Club'} },
+        {   $unwind: {path: '$Club', preserveNullAndEmptyArrays: false} },
+        {   $match: {'Club.name' : {$in: clubParamsArr  } }}  )
         
     }
     if(req.query.country)
     {
         let countryParamsArr = underscoreToArrayLoweCaseSplit(req.query.country)
         // console.log('country params are',countryParamsArr)
-        demoRawQuery.push({
-                $lookup: {
-                    from: 'countries',
-                    localField: 'country',
-                    foreignField: '_id',
-                    as: 'Country'
-                }
-            },{
-                $unwind: {path: '$Country', preserveNullAndEmptyArrays: false}
-
-            }, 
-            {   $match: {'Country.name' : {$in: countryParamsArr  } }}
-        )
+        aggregatePipeLineQuery.push({$lookup: { from: 'countries',  localField: 'country',  foreignField: '_id', as: 'Country'  }},
+            {  $unwind: {path: '$Country', preserveNullAndEmptyArrays: false}}, 
+            {  $match: {'Country.name' : {$in: countryParamsArr  } }} )
 
     }
-    if(req.query.sortBy){
+    
+    if(req.query.sortBy && typeof  req.query.sortBy === 'string'){
         let sortByParamsArr = hyphenToArrayLoweCaseSplit(req.query.sortBy)
-        console.log('query is', sortByParamsArr)
-        let sortPm = {}
-        sortPm[sortByParamsArr[0]] = sortByParamsArr[1] == 'asc'  ? 1 : -1
-        sort = { $sort: sortPm }
-        console.log('ok is',sort)
-        demoRawQuery.push(sort ? sort : [])
-        
+        console.log('sort params array are:',sortByParamsArr)
+        sortParameter = {}
+        sortParameter[sortByParamsArr[0]] = sortByParamsArr[1] == 'asc'  ? 1 : -1
+        console.log('sort parametrs:',sortByParamsArr[0])
     }
+    aggregatePipeLineQuery.push({ $sort: sortParameter })
     
     try {
-        // const products = await Product.find(demoRawQuery);
-    //    const  products = await  Product.aggregate( finalRawQuery )
-    
-    
-    // sortPm[ok] = -1
-    // console.log('ok is',sortPm)
-    
-        console.log('demo is: ',demoRawQuery)
-       const  products = await  Product.aggregate( demoRawQuery )
+        console.log('demo is: ',aggregatePipeLineQuery)
+       const  products = await  Product.aggregate( aggregatePipeLineQuery )
         if (products === null) {
            return res.status(404).json({ msg: 'product not found'  });
         } 

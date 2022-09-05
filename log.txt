@@ -5680,3 +5680,525 @@
 {"timestamp":"2022-09-02T20:26:17.936Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-asc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-asc"}}
 {"timestamp":"2022-09-02T20:26:19.124Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-asc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-asc"}}
 {"timestamp":"2022-09-02T20:26:25.854Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:27:27.055Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:27:28.535Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:27:29.175Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:27:29.769Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:27:32.095Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-02T20:27:32.611Z","url":"/api/product?country=England_spain_bangladesh&club=espaniyol&sortBy=name-desc","params":{},"query":{"country":"England_spain_bangladesh","club":"espaniyol","sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:21:03.429Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:23:57.334Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:23:57.880Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:23:58.492Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:23:58.814Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:24:42.659Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:24:43.287Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:24:51.093Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:24:55.645Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:25:32.747Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:26:04.855Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:26:37.301Z","url":"/api/product?sortBy=name-desc&sortBy=name-asc","params":{},"query":{"sortBy":["name-desc","name-asc"]}}
+{"timestamp":"2022-09-03T20:26:53.290Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:27:50.721Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:27:53.551Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:27:54.749Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:27:55.855Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:27:56.210Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:27:59.834Z","url":"/api/product?sortBy=name-desc&sortBy=name-asc","params":{},"query":{"sortBy":["name-desc","name-asc"]}}
+{"timestamp":"2022-09-03T20:28:00.642Z","url":"/api/product?sortBy=name-desc&sortBy=name-asc","params":{},"query":{"sortBy":["name-desc","name-asc"]}}
+{"timestamp":"2022-09-03T20:28:04.684Z","url":"/api/product?sortBy=name-desc&sortBy=name-asc","params":{},"query":{"sortBy":["name-desc","name-asc"]}}
+{"timestamp":"2022-09-03T20:28:09.722Z","url":"/api/product?sortBy=name-desc&sortBy=name-asc","params":{},"query":{"sortBy":["name-desc","name-asc"]}}
+{"timestamp":"2022-09-03T20:28:12.836Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:28:16.499Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:31:36.179Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:31:37.041Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:31:45.408Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:31:46.515Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:31:47.210Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:31:53.269Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:44:19.534Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:44:20.590Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:44:24.101Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:44:24.990Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:44:27.804Z","url":"/api/product?sortBy=name-desc&sortBy=name-asc","params":{},"query":{"sortBy":["name-desc","name-asc"]}}
+{"timestamp":"2022-09-03T20:44:31.088Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:44:35.142Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:44:51.494Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:44:52.585Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:44:53.310Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:45:09.665Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:45:10.635Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:45:11.327Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:45:19.439Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:45:21.966Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:45:27.587Z","url":"/api/product?sortBy=name-asc","params":{},"query":{"sortBy":"name-asc"}}
+{"timestamp":"2022-09-03T20:45:33.734Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:45:34.782Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:45:35.439Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:45:35.930Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:45:36.756Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:46:21.682Z","url":"/api/product?sortBy=name-desc","params":{},"query":{"sortBy":"name-desc"}}
+{"timestamp":"2022-09-03T20:46:24.483Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:46:25.214Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:46:25.951Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:46:31.286Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:46:33.273Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:34.152Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:34.764Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:35.775Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:36.469Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:37.364Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:38.653Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:39.790Z","url":"/api/product?sortBy=price-asc","params":{},"query":{"sortBy":"price-asc"}}
+{"timestamp":"2022-09-03T20:46:52.832Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:47:19.972Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:47:24.821Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:47:25.499Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:47:45.956Z","url":"/api/product?sortBy=quantity-asc&sortBy=quantity-desc","params":{},"query":{"sortBy":["quantity-asc","quantity-desc"]}}
+{"timestamp":"2022-09-03T20:47:46.918Z","url":"/api/product?sortBy=quantity-asc&sortBy=quantity-desc","params":{},"query":{"sortBy":["quantity-asc","quantity-desc"]}}
+{"timestamp":"2022-09-03T20:47:52.208Z","url":"/api/product?sortBy=quantity-asc&sortBy=quantity-desc","params":{},"query":{"sortBy":["quantity-asc","quantity-desc"]}}
+{"timestamp":"2022-09-03T20:47:58.179Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:47:59.068Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:48:26.560Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:48:37.944Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:48:38.765Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:48:51.747Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:49:16.867Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:49:42.739Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:49:56.340Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:50:24.469Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:50:44.801Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:50:59.955Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:51:29.527Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:51:38.021Z","url":"/api/product?sortBy=quantity-asc&sortBy=quantity-desc","params":{},"query":{"sortBy":["quantity-asc","quantity-desc"]}}
+{"timestamp":"2022-09-03T20:51:40.890Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:51:43.484Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:51:52.304Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:52:14.313Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:52:43.086Z","url":"/api/product?sortBy=quantity-asc","params":{},"query":{"sortBy":"quantity-asc"}}
+{"timestamp":"2022-09-03T20:52:47.378Z","url":"/api/product?sortBy=quantity-asc&sortBy=quantity-desc","params":{},"query":{"sortBy":["quantity-asc","quantity-desc"]}}
+{"timestamp":"2022-09-03T20:52:48.139Z","url":"/api/product?sortBy=quantity-asc&sortBy=quantity-desc","params":{},"query":{"sortBy":["quantity-asc","quantity-desc"]}}
+{"timestamp":"2022-09-03T20:52:51.327Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:53:04.663Z","url":"/api/product?sortBy=quantity-desc","params":{},"query":{"sortBy":"quantity-desc"}}
+{"timestamp":"2022-09-03T20:57:23.542Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:23.547Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:23.548Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:23.553Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:23.552Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:26.039Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-03T20:57:27.132Z","url":"/api/product?club=barcelona_real+madrid","params":{},"query":{"club":"barcelona_real madrid"}}
+{"timestamp":"2022-09-03T20:57:27.725Z","url":"/api/product?club=barcelona_real+madrid_espaniyol","params":{},"query":{"club":"barcelona_real madrid_espaniyol"}}
+{"timestamp":"2022-09-03T20:57:28.312Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United"}}
+{"timestamp":"2022-09-03T20:57:31.629Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=bangladesh","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"bangladesh"}}
+{"timestamp":"2022-09-03T20:57:32.795Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=bangladesh_england","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"bangladesh_england"}}
+{"timestamp":"2022-09-03T20:57:33.790Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=bangladesh_england_spain","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"bangladesh_england_spain"}}
+{"timestamp":"2022-09-03T20:57:34.241Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=bangladesh_england_spain_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"bangladesh_england_spain_equador"}}
+{"timestamp":"2022-09-03T20:57:35.041Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=bangladesh_england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"bangladesh_england_equador"}}
+{"timestamp":"2022-09-03T20:57:35.896Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:44.010Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:44.011Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:44.012Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:44.020Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:44.024Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:45.082Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:45.082Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:45.088Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:45.091Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:45.084Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:46.665Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:46.666Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:46.671Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:46.667Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:46.676Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equador","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equador"}}
+{"timestamp":"2022-09-03T20:57:49.926Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:49.927Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:57:49.931Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:57:49.939Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:57:49.935Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:58:00.940Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:00.943Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:00.944Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:58:00.950Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:58:00.953Z","url":"/api/product?club=barcelona_real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"barcelona_real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:58:12.640Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United&country=england_equadorp","params":{},"query":{"club":"real madrid_espaniyol_Manchester United","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:58:14.005Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona&country=england_equadorp","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona","country":"england_equadorp"}}
+{"timestamp":"2022-09-03T20:58:15.525Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona&country=england_equadorp_bangladesh","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona","country":"england_equadorp_bangladesh"}}
+{"timestamp":"2022-09-03T20:58:23.321Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:23.324Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:23.328Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:23.333Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:23.338Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:34.927Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:34.928Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:34.935Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:34.942Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:34.947Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:37.426Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:37.430Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:37.433Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:37.437Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:37.441Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=england_equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"england_equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:38.855Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:41.234Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:41.237Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:58:41.238Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:41.242Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:41.247Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:58:43.327Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad_barcelona&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad_barcelona","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:59:01.053Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:01.056Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:01.057Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad_barcelona&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad_barcelona","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:59:01.062Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad_barcelona&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad_barcelona","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:59:01.085Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelonad_barcelona&country=equadorp_bangladeshr","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelonad_barcelona","country":"equadorp_bangladeshr"}}
+{"timestamp":"2022-09-03T20:59:11.668Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:11.671Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:11.673Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:11.677Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:11.679Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:13.762Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-03T20:59:15.113Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:17.224Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-03T20:59:19.939Z","url":"/api/product?club=real+madrid_espaniyol","params":{},"query":{"club":"real madrid_espaniyol"}}
+{"timestamp":"2022-09-03T20:59:22.102Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United","params":{},"query":{"club":"real madrid_espaniyol_Manchester United"}}
+{"timestamp":"2022-09-03T20:59:23.367Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona"}}
+{"timestamp":"2022-09-03T20:59:24.313Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United","params":{},"query":{"club":"real madrid_espaniyol_Manchester United"}}
+{"timestamp":"2022-09-03T20:59:24.864Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United_barcelona","params":{},"query":{"club":"real madrid_espaniyol_Manchester United_barcelona"}}
+{"timestamp":"2022-09-03T20:59:25.297Z","url":"/api/product?club=real+madrid_espaniyol_Manchester+United","params":{},"query":{"club":"real madrid_espaniyol_Manchester United"}}
+{"timestamp":"2022-09-03T20:59:33.134Z","url":"/api/product?club=real+madrid_Manchester+United","params":{},"query":{"club":"real madrid_Manchester United"}}
+{"timestamp":"2022-09-03T20:59:33.585Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-03T20:59:34.971Z","url":"/api/product?club=real+madrid_espaniyol","params":{},"query":{"club":"real madrid_espaniyol"}}
+{"timestamp":"2022-09-03T20:59:36.824Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-03T20:59:38.507Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:45.716Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:45.721Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:45.721Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:45.719Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:45.726Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-03T20:59:50.523Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-03T20:59:51.946Z","url":"/api/product?club=barcelona_espaniyol","params":{},"query":{"club":"barcelona_espaniyol"}}
+{"timestamp":"2022-09-03T20:59:53.308Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-03T20:59:54.493Z","url":"/api/product?club=espaniyol_real+madrid","params":{},"query":{"club":"espaniyol_real madrid"}}
+{"timestamp":"2022-09-03T20:59:54.994Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-03T20:59:55.530Z","url":"/api/product?club=espaniyol_real+madrid","params":{},"query":{"club":"espaniyol_real madrid"}}
+{"timestamp":"2022-09-03T20:59:56.064Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-03T20:59:57.084Z","url":"/api/product?club=espaniyol_Manchester+United","params":{},"query":{"club":"espaniyol_Manchester United"}}
+{"timestamp":"2022-09-03T20:59:58.732Z","url":"/api/product?club=Manchester+United","params":{},"query":{"club":"Manchester United"}}
+{"timestamp":"2022-09-03T21:00:05.529Z","url":"/api/product?club=Manchester+United&sortBy=price-DESC","params":{},"query":{"club":"Manchester United","sortBy":"price-DESC"}}
+{"timestamp":"2022-09-03T21:00:08.686Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=price-DESC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"price-DESC"}}
+{"timestamp":"2022-09-03T21:00:13.699Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=price-ASC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"price-ASC"}}
+{"timestamp":"2022-09-03T21:00:16.451Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=price-DESC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"price-DESC"}}
+{"timestamp":"2022-09-03T21:00:20.211Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=name-ASC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"name-ASC"}}
+{"timestamp":"2022-09-03T21:00:23.228Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=name-DESC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"name-DESC"}}
+{"timestamp":"2022-09-03T21:00:28.551Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:35.859Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=price-ASC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"price-ASC"}}
+{"timestamp":"2022-09-03T21:00:37.458Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=name-DESC","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"name-DESC"}}
+{"timestamp":"2022-09-03T21:00:38.963Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:47.197Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:00:47.199Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:00:47.204Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:47.207Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:47.210Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:52.327Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:00:52.330Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:00:52.330Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:52.334Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:00:52.337Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:01:02.993Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:01:02.996Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:01:02.997Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:01:03.003Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:01:03.006Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:01:05.127Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:01:05.130Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-03T21:01:05.130Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:01:05.135Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-03T21:01:05.138Z","url":"/api/product?club=Manchester+United_barcelona&sortBy=Default","params":{},"query":{"club":"Manchester United_barcelona","sortBy":"Default"}}
+{"timestamp":"2022-09-04T13:47:19.431Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:19.437Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:19.445Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:19.458Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:19.472Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:21.312Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-04T13:47:22.648Z","url":"/api/product?club=barcelona_espaniyol","params":{},"query":{"club":"barcelona_espaniyol"}}
+{"timestamp":"2022-09-04T13:47:24.277Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:47:26.266Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:26.933Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-04T13:47:27.732Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:30.240Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:30.241Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:30.244Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:30.243Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:30.257Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:42.219Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:42.220Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:42.223Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:42.221Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:47:42.226Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:52:01.878Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:52:01.879Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:52:01.880Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:52:01.883Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:52:01.887Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:46.203Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:46.207Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:46.209Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:46.210Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:46.212Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:54.819Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:54.821Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:54.824Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:54.826Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:54.827Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:56.910Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:56.911Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:56.912Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:56.915Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:53:56.917Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:01.713Z","url":"/api/product?sortBy=price-DESC","params":{},"query":{"sortBy":"price-DESC"}}
+{"timestamp":"2022-09-04T13:54:04.169Z","url":"/api/product?sortBy=name-ASC","params":{},"query":{"sortBy":"name-ASC"}}
+{"timestamp":"2022-09-04T13:54:06.082Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:08.484Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:08.485Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:08.488Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:08.491Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:08.495Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:14.292Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:14.293Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:14.297Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:14.298Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:14.299Z","url":"/api/product?sortBy=name-DESC","params":{},"query":{"sortBy":"name-DESC"}}
+{"timestamp":"2022-09-04T13:54:17.461Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:17.462Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T13:54:17.466Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:17.468Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:17.472Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:41.111Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:41.753Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:42.386Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:42.753Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:43.049Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:43.345Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:43.585Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:43.817Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:44.025Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:44.225Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:44.440Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:44.672Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:45.009Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:45.760Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T13:54:46.193Z","url":"/api/product?sortBy=name-DESCs&club=espaniyol","params":{},"query":{"sortBy":"name-DESCs","club":"espaniyol"}}
+{"timestamp":"2022-09-04T13:54:46.632Z","url":"/api/product?sortBy=name-DESCs","params":{},"query":{"sortBy":"name-DESCs"}}
+{"timestamp":"2022-09-04T14:01:48.986Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:48.988Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:48.990Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:48.993Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:48.994Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:54.771Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:54.772Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:54.773Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:54.777Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:01:54.778Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:03:50.160Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:03:50.161Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:03:50.162Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:03:50.163Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T14:03:50.167Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T17:21:24.920Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-04T17:21:24.921Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-04T17:21:24.922Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T17:21:24.923Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-04T17:21:24.925Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:19.401Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:19.407Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:19.416Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:19.426Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:19.436Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:22.146Z","url":"/api/product?club=barcelona","params":{},"query":{"club":"barcelona"}}
+{"timestamp":"2022-09-05T17:29:23.899Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:24.394Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-05T17:29:25.157Z","url":"/api/product?club=real+madrid_espaniyol","params":{},"query":{"club":"real madrid_espaniyol"}}
+{"timestamp":"2022-09-05T17:29:25.892Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-05T17:29:27.072Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:27.911Z","url":"/api/product?club=real+madrid","params":{},"query":{"club":"real madrid"}}
+{"timestamp":"2022-09-05T17:29:28.327Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:29.079Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-05T17:29:29.801Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:30.287Z","url":"/api/product?club=espaniyol","params":{},"query":{"club":"espaniyol"}}
+{"timestamp":"2022-09-05T17:29:31.492Z","url":"/api/product?club=espaniyol_Manchester+United","params":{},"query":{"club":"espaniyol_Manchester United"}}
+{"timestamp":"2022-09-05T17:29:33.571Z","url":"/api/product?club=Manchester+United","params":{},"query":{"club":"Manchester United"}}
+{"timestamp":"2022-09-05T17:29:35.811Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:29:38.629Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:38.630Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:29:38.635Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:29:38.649Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:29:38.652Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:30:04.243Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:30:04.245Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:30:04.250Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:30:04.248Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:30:04.252Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:31:29.140Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:31:29.139Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:31:29.143Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:31:29.146Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:31:29.148Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:31:48.663Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:31:48.665Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:31:48.665Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:31:48.668Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:31:48.672Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:32:09.134Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:09.135Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:09.138Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:32:09.142Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:32:09.140Z","url":"/api/product?club=Manchester+United_barcelona","params":{},"query":{"club":"Manchester United_barcelona"}}
+{"timestamp":"2022-09-05T17:32:33.055Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:33.056Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:33.057Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:33.061Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:33.062Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:46.279Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:46.280Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:46.283Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:46.284Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:32:46.285Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:33:24.335Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:33:24.337Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:33:24.347Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:33:24.349Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:33:24.352Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:35:56.911Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:35:56.915Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:35:56.916Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:35:56.917Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T17:35:56.918Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:53:35.506Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:53:35.507Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:53:35.521Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:53:35.522Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:53:35.526Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:54:00.012Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:54:00.015Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:54:00.017Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:54:00.018Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:54:00.026Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:25.075Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:25.078Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:25.079Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:25.080Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:25.081Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:41.010Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:41.014Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:41.015Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:41.018Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:41.020Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:56.242Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:56.246Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:56.248Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:56.250Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T18:59:56.252Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:03.848Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:03.850Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:03.851Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:03.852Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:03.854Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:13.233Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:13.243Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:13.246Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:13.247Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:13.251Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:16.745Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:16.746Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:16.748Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:16.750Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:16.754Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:39.523Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:39.525Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:39.527Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:39.528Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:39.534Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:43.429Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:43.430Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:43.430Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:43.434Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:43.437Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:49.712Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:49.715Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:49.716Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:49.722Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:00:49.723Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:16.389Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:16.392Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:16.394Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:16.395Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:16.396Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:51.217Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:51.223Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:51.224Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:51.225Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:03:51.231Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:02.573Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:02.577Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:02.578Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:02.579Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:02.585Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:13.732Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:13.735Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:13.736Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:13.737Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:04:13.743Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:05:22.353Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:05:22.356Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:05:22.358Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:05:22.359Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:05:22.362Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:06:31.447Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:06:31.449Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:06:31.452Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:06:31.452Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:06:31.455Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:07:13.942Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:07:13.945Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:07:13.946Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:07:13.948Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:07:13.953Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:13.308Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:13.311Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:13.312Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:13.313Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:13.319Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:14.631Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:14.632Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:14.635Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:14.635Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:08:14.636Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:09:12.232Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:09:12.234Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:09:12.235Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:09:12.239Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:09:12.240Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:27.771Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:27.772Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:27.774Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:27.774Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:27.777Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:31.219Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:31.220Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:31.220Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:31.223Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:31.224Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:39.554Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:39.577Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:39.578Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:39.580Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:39.583Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:43.145Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:43.148Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:43.152Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:43.153Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:43.158Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:45.173Z","url":"/api/club","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:45.175Z","url":"/api/country","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:45.178Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:45.179Z","url":"/api/product","params":{},"query":{}}
+{"timestamp":"2022-09-05T19:11:45.180Z","url":"/api/product","params":{},"query":{}}
