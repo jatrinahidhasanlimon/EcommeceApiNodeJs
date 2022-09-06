@@ -18,10 +18,11 @@ const ProductSchema = new mongoose.Schema({
       unique: true,
       required: true,
       maxLength:  [54, 'Maximum 54, got {VALUE}'],
-  },
+    },
     category: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true
+        required: true,
+        ref: 'Category',
     },
     country: {
       type: mongoose.Schema.Types.ObjectId,
@@ -29,44 +30,60 @@ const ProductSchema = new mongoose.Schema({
       ref: 'Country',
     },
     club:{
-      type: Object,
-      required: true
+       type: mongoose.Schema.Types.ObjectId,
+      required: true,
+      ref: 'Club',
+    },
+    brand:{
+        type: mongoose.Schema.Types.ObjectId,
+        required: true,
+        ref: 'Brand',
     },
       image: {
         type: String,
         required: true
     },
-      tags: [{
+    tags: [{
           type: String
       }],
-      sku: {
+    sku: {
         type: String,
         required: true
       },
-      price: {
+    sellingPrice: {
         type: Number,
         required: true
-      },
-      quantity: {
-        type: Number,
-        required: true
-      },
-      availabliltyOptions:{
-        sizeWise:{
-          type: Object,
-          required: true
-        },
     },
-    colors:[{
+    erp: {
+      type: Number,
+      required: true
+  },
+    quantity: {
+      type: Number,
+      required: true
+    },
+    availabliltyOptions:{
+      sizeWise:{
+        type: Object,
+        required: true
+      },
+  },
+    description:{
       type: String,
       required: true,
       maxLength:  [14, 'Maximum 13, got {VALUE}'],
-  }],
-    kitType: [{
-      type: String,
+  },
+    kitType: {
+      type     : String,
       enum: ['home', 'away', 'training_kit', 'goal_keeper','travelling_kit' ],
-      required: true
-  }]
+      required : true,
+  },
+  gender: {
+    type : String,
+    enum: ['male', 'female'],
+    required : true,
+},
+  
    
       
 })

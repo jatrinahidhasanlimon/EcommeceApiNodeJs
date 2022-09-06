@@ -1,3 +1,4 @@
+const bodyParser = require('body-parser');
 const express = require('express')
 const app = express()
 const fs = require('fs');
@@ -7,8 +8,9 @@ const general_routes = require('./routes/general.js')
 const club_routes = require('./routes/club.js')
 const country_routes = require('./routes/country.js')
 const category_routes = require('./routes/category.js')
+const brand_routes = require('./routes/brand.js')
 const mongoose = require('mongoose')
-const bodyParser = require('body-parser');
+
 const auth = require("./middleware/auth");
 var cors = require('cors')
 app.use(cors({
@@ -50,9 +52,10 @@ app.use(logger)
 // })
 // const router = express.Router()
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json()); 
-app.use(express.json())
+express.urlencoded({extended:true})
+
+
+
 
 // app.use('/api/user', auth,  user_routes)
 app.use('/api/user',  user_routes)
@@ -60,6 +63,7 @@ app.use('/api/product', product_routes)
 app.use('/api/club', club_routes)
 app.use('/api/country', country_routes)
 app.use('/api/category', category_routes)
+app.use('/api/brand', brand_routes)
 app.use('/', general_routes)
 
 
