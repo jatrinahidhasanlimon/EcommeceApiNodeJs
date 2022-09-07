@@ -1,6 +1,7 @@
 const Brand = require('../models/Brand.js');
 const mongoose = require('mongoose')
 const upload =  require('../middleware/upload.js'); 
+var sizeOf = require('buffer-image-size');
 
 const { validationErrorHumanify } = require('../models/ErrorHandler.js');
 const getBrands = (async (req, res) => {
@@ -28,7 +29,13 @@ const getBrand = (async (req, res) => {
 })
 const  createBrand = async (req, res) => {
     const newBrand = {...req.body}
-    console.log('passed parameter is: ', JSON.stringify (req.body) )
+    // console.log('passed parameter is: ',  (req.files.logo) )
+
+
+    const a_file = req.files.logo
+    console.log('A File is : ',a_file[0].buffer)
+    var dimensions = sizeOf(a_file[0].buffer);
+    console.log('dimensions are ', dimensions)
     try {
         let create = await Brand.create(newBrand)
         // let uploadImage =  upload(req, res);
