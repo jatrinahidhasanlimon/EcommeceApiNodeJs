@@ -39,13 +39,17 @@ const ProductSchema = new mongoose.Schema({
         required: true,
         ref: 'Brand',
     },
-      image: {
+      thumbnail: {
         type: String,
         required: true
     },
     tags: [{
           type: String
       }],
+    images: [{
+        type: Object,
+        // required: true
+    }],
     sku: {
         type: String,
         required: true

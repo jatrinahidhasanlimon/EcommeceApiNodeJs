@@ -1,8 +1,14 @@
 const Product = require('../models/Product.js');
 const mongoose = require('mongoose')
-
+const fs = require('fs');
 const {validationErrorHumanify} = require('../models/ErrorHandler.js');
-const {underscoreToArrayofObjectIdSplit, underscoreToArrayLoweCaseSplit,hyphenToArrayLoweCaseSplit} = require('../models/customFunction.js');
+const {underscoreToArrayofObjectIdSplit,
+     underscoreToArrayLoweCaseSplit,
+     hyphenToArrayLoweCaseSplit,
+     writeFileUsingBufferStream, 
+     makeDirectory,
+     streamToBuffer
+    } = require('../models/customFunction.js');
 
 const getProducts = (async (req, res) => {
     let sortParameter = { name: -1 }
@@ -67,9 +73,49 @@ const getProduct = (async (req, res) => {
 
 const  createProduct = async (req, res) => {
     const newProduct = {...req.body}
-    // return res.send(newProduct)
+    const requestedFiles = req.files
+    let imagesWithDescription = []; // For Storing images with description
+    const uploadDir = makeDirectory('uploads/product/')
+    if(requestedFiles){
+        if(requestedFiles.thumbnail){
+            const thumbnailFile =  requestedFiles.thumbnail[0]
+            const tempFilePath = thumbnailFile.path;
+            const targetPath = uploadDir + thumbnailFile.filename;
+            const readStream = fs.createReadStream(tempFilePath);
+            const bufferedFromStream = await streamToBuffer(readStream)
+            writeFileUsingBufferStream (targetPath, bufferedFromStream, tempFilePath)
+            newProduct['thumbnail'] = thumbnailFile.filename
+        }
+        if(requestedFiles.images){
+            let imageOrder = 0;
+            while( imageOrder <  requestedFiles.images.length){
+                imagesWithDescription.push({
+                    'image' : requestedFiles.images[imageOrder].filename,
+                    'property' : req.body.imageDescription[imageOrder]
+                })
+                imageOrder++ ;
+            }
+            console.log('length of images Are: ', imagesWithDescription)
+        }
+        newProduct['images'] = imagesWithDescription
+    }
     try {
         let create = await Product.create(newProduct)
+        
+        if(requestedFiles.images){
+            const requestedfileImages = requestedFiles.images
+            let imageOrder = 0;
+            while( imageOrder <  requestedfileImages.length){
+                const singleImageFile =  requestedfileImages[imageOrder]
+                const tempFilePath = singleImageFile.path;
+                const targetPath = uploadDir + singleImageFile.filename;
+                const readStream = fs.createReadStream(tempFilePath);
+                const bufferedFromStream = await streamToBuffer(readStream)
+                writeFileUsingBufferStream (targetPath, bufferedFromStream, tempFilePath)
+                imageOrder++
+            }
+        }
+
         res.status(200).json(create)
     }catch(error){
         return res.status(400).json(validationErrorHumanify(error))

@@ -25,9 +25,10 @@ const hyphenToArrayLoweCaseSplit =  (params) => {
     return splitted
 }
 const makeDirectory = (dir) => {
-   fs.exists(dir, exist => {
+    console.log('directory is', dir)
+   fs.existsSync(dir, exist => {
         if (!exist) {
-             return fs.mkdir(dir)
+             return fs.mkdirSync(dir)
         }
         return dir
     })
@@ -48,12 +49,19 @@ const streamToBuffer = async (readStream) => {
         })
       })
 }
+const writeFileUsingBufferStream = async (targetPath, bufferedData, tempFilePath) => {
+    fs.writeFile(targetPath, bufferedData, 'binary', function(err) {
+        if (err) throw err
+            fs.unlinkSync(tempFilePath);
+    })
+}
 
 module.exports = {
     underscoreToArrayofObjectIdSplit,
     underscoreToArrayLoweCaseSplit,
     hyphenToArrayLoweCaseSplit,
     makeDirectory,
-    streamToBuffer
+    streamToBuffer,
+    writeFileUsingBufferStream
 
 }
