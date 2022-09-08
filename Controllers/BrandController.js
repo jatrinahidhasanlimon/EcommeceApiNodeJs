@@ -2,8 +2,9 @@ const Brand = require('../models/Brand.js');
 const mongoose = require('mongoose')
 const upload =  require('../middleware/upload.js'); 
 var sizeOf = require('buffer-image-size');
-
+const fs = require('fs');
 const { validationErrorHumanify } = require('../models/ErrorHandler.js');
+const {makeDirectory,streamToBuffer} = require('../models/customFunction.js');
 const getBrands = (async (req, res) => {
     try {
         const allBrand = await Brand.find();
@@ -28,18 +29,21 @@ const getBrand = (async (req, res) => {
     }
 })
 const  createBrand = async (req, res) => {
-    const newBrand = {...req.body}
-    // console.log('passed parameter is: ',  (req.files.logo) )
-
-
-    const a_file = req.files.logo
-    console.log('A File is : ',a_file[0].buffer)
-    var dimensions = sizeOf(a_file[0].buffer);
-    console.log('dimensions are ', dimensions)
+    let newBrand = {...req.body}
+    newBrand['logo'] = req.file.filename
+    const tempFilePath = req.file.path;
+    const uploadDir = makeDirectory('uploads/category/')
+    const targetPath = uploadDir + req.file.filename;
+    const readStream = fs.createReadStream(tempFilePath);
+    const bufferedFromStream = await streamToBuffer(readStream)
+    const dimensions = sizeOf(bufferedFromStream);
+    fs.writeFile(targetPath, bufferedFromStream, 'binary', function(err) {
+            if (err) throw err
+            fs.unlinkSync(tempFilePath);
+    })
     try {
         let create = await Brand.create(newBrand)
-        // let uploadImage =  upload(req, res);
-        res.status(200).json(create)
+       return  res.status(200).json(create)
     }catch(error){
         return res.status(400).json(validationErrorHumanify(error))
     }

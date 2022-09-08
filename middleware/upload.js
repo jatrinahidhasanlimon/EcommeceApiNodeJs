@@ -39,7 +39,6 @@ let upload = multer(
     { 
         storage: storage, 
         fileFilter: fileFilter,
-        dest: './uploads/category',
         limits: { fileSize: maxSize },
     }
 );

@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const fs = require('fs');
 
 const underscoreToArrayofObjectIdSplit =  (params) => {
     let splitted = params.split('_')
@@ -23,9 +24,36 @@ const hyphenToArrayLoweCaseSplit =  (params) => {
     })
     return splitted
 }
+const makeDirectory = (dir) => {
+   fs.exists(dir, exist => {
+        if (!exist) {
+             return fs.mkdir(dir)
+        }
+        return dir
+    })
+    return dir
+
+}
+const streamToBuffer = async (readStream) => {
+    return new Promise((resolve, reject) => {
+        const bufferData = [];
+        readStream.on('data', (chunk) => {
+          bufferData.push(chunk);
+        });
+        readStream.on('end', () => {
+          resolve(Buffer.concat(bufferData))
+        })
+        readStream.on('error', (err) => {
+          reject(err)
+        })
+      })
+}
 
 module.exports = {
     underscoreToArrayofObjectIdSplit,
     underscoreToArrayLoweCaseSplit,
-    hyphenToArrayLoweCaseSplit
+    hyphenToArrayLoweCaseSplit,
+    makeDirectory,
+    streamToBuffer
+
 }
