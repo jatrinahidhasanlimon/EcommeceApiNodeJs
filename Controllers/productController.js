@@ -27,7 +27,7 @@ const getProducts = (async (req, res) => {
     {
         let countryParamsArr = underscoreToArrayLoweCaseSplit(req.query.country)
         // console.log('country params are',countryParamsArr)
-        aggregatePipeLineQuery.push({$lookup: { from: 'countries',  localField: 'country',  foreignField: '_id', as: 'Country'  }},
+        aggregatePipeLineQuery.push({ $lookup: { from: 'countries',  localField: 'country',  foreignField: '_id', as: 'Country'  }},
             {  $unwind: {path: '$Country', preserveNullAndEmptyArrays: false}}, 
             {  $match: {'Country.name' : {$in: countryParamsArr  } }} )
 
@@ -64,6 +64,21 @@ const getProduct = (async (req, res) => {
         let product = await Product.findById(productID);
         if (product === null) {
            return res.status(404).json({ msg: `product not found with id :${productID}`  });
+        } 
+        return res.status(200).json(product)
+    } catch (error) {
+        return res.status(400).json(validationErrorHumanify(error))
+    }
+})
+const getProductbySlug = (async (req, res) => {
+    const productSlug = (req.params.slug)
+    // if (!mongoose.Types.ObjectId.isValid(productSlug)) {
+    //     return res.status(404).json({ msg: `product not found with id :${productSlug}`  });
+    // }
+    try {
+        let product = await Product.findOne({slug: productSlug}).populate('club','name').populate('country','name').exec();
+        if (product === null) {
+           return res.status(404).json({ msg: `product not found with id :${productSlug}`  });
         } 
         return res.status(200).json(product)
     } catch (error) {
@@ -168,5 +183,6 @@ module.exports = {
     getProduct,
     createProduct,
     updateProduct,
-    deleteProduct
+    deleteProduct,
+    getProductbySlug
 }

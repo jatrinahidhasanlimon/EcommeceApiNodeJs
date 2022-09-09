@@ -30,7 +30,7 @@ const ProductSchema = new mongoose.Schema({
       ref: 'Country',
     },
     club:{
-       type: mongoose.Schema.Types.ObjectId,
+      type: mongoose.Schema.Types.ObjectId,
       required: true,
       ref: 'Club',
     },

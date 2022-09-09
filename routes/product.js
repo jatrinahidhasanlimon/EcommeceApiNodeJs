@@ -6,11 +6,13 @@ const  {
     getProduct,
     createProduct,
     updateProduct,
-    deleteProduct
+    deleteProduct,
+    getProductbySlug
 } = require('../Controllers/ProductController.js')
 
 router.get('/', getProducts)
 router.get('/:id', getProduct)
+router.get('/product-by-slug/:slug', getProductbySlug)
 router.post('/',  upload ,createProduct) 
 
 router.post("/upload_files", (req, res) => {
