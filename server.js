@@ -51,9 +51,13 @@ app.use(logger)
 //     res.send('welcome to the node js rest api')
 // })
 // const router = express.Router()
+let  jsonParser = bodyParser.json()
 
-express.urlencoded({extended:true})
-
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+// express.urlencoded({extended:true})
+app.use(express.json())
 
 
 
